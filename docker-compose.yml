@@ -58,38 +58,6 @@ services:
     profiles:
       - prod
 
-  # Monitoring service (optional)
-  prometheus:
-    image: prom/prometheus:latest
-    ports:
-      - "9090:9090"
-    volumes:
-      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-      - '--storage.tsdb.path=/prometheus'
-      - '--web.console.libraries=/etc/prometheus/console_libraries'
-      - '--web.console.templates=/etc/prometheus/consoles'
-      - '--web.enable-lifecycle'
-    networks:
-      - hpc-network
-    profiles:
-      - monitoring
-
-  # Grafana for visualization (optional)
-  grafana:
-    image: grafana/grafana:latest
-    ports:
-      - "3001:3000"
-    environment:
-      - GF_SECURITY_ADMIN_PASSWORD=admin
-    volumes:
-      - grafana-storage:/var/lib/grafana
-    networks:
-      - hpc-network
-    profiles:
-      - monitoring
-
 networks:
   hpc-network:
     driver: bridge
@@ -99,6 +67,5 @@ volumes:
     driver: local
   dashboard-logs:
     driver: local
-  grafana-storage:
 
 
