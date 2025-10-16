@@ -1,0 +1,50 @@
+{
+  "data": {
+    "resourcePool": {
+      "cpu": {
+        "total": 240,
+        "unit": "cores"
+      },
+      "memory": {
+        "total": 1536,
+        "unit": "GB"
+      },
+      "gpu": {
+        "total": 16,
+        "unit": "units"
+      }
+    },
+    "reservations": [
+      {
+        "name": "PSY-200(A/B)",
+        "gpuName": "",
+        "cpu": 80,
+        "memory": 160,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467212340",
+        "color": "#3b82f6"
+      },
+      {
+        "name": "CSC-371",
+        "gpuName": "Quadro RTX 5000",
+        "cpu": 120,
+        "memory": 160,
+        "gpu": 12,
+        "description": "",
+        "id": "1760467282235",
+        "color": "#10b981"
+      }
+    ],
+    "lastUpdated": "2025-10-14T18:42:28.156Z",
+    "version": "1.0.0"
+  },
+  "settings": {
+    "theme": "light",
+    "autoSave": true,
+    "notifications": true,
+    "refreshInterval": 30000
+  },
+  "exportedAt": "2025-10-14T18:42:28.156Z",
+  "version": "1.0.0"
+}

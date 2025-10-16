@@ -6,12 +6,14 @@ export const SystemOverview: React.FC = () => {
   const { resourcePool, utilization, reservations } = useResourceStore();
 
   const getUtilizationColor = (percentage: number) => {
+    if (percentage > 100) return 'text-red-700';
     if (percentage >= 90) return 'text-red-600';
     if (percentage >= 75) return 'text-yellow-600';
     return 'text-green-600';
   };
 
   const getUtilizationBgColor = (percentage: number) => {
+    if (percentage > 100) return 'bg-red-200';
     if (percentage >= 90) return 'bg-red-100';
     if (percentage >= 75) return 'bg-yellow-100';
     return 'bg-green-100';

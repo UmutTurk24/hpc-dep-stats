@@ -21,6 +21,9 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
   icon,
   color
 }) => {
+  const isOverUtilized = utilization.percentage > 100;
+  const clampedPercentage = Math.min(utilization.percentage, 100);
+  const progressBarColor = isOverUtilized ? 'bg-red-600' : 'bg-blue-600';
   // Prepare data for pie chart
   const chartData = [
     ...breakdown.map(item => ({
@@ -86,17 +89,17 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
         </div>
         <div className="w-full bg-gray-200 rounded-full h-3">
           <div
-            className="bg-blue-600 h-3 rounded-full transition-all duration-300"
-            style={{ width: `${utilization.percentage}%` }}
+            className={`${progressBarColor} h-3 rounded-full transition-all duration-300`}
+            style={{ width: `${clampedPercentage}%` }}
           />
         </div>
       </div>
 
       {/* Pie Chart */}
-      <div className="h-64 flex items-center">
+      <div className="h-96 pb-10">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart
-            margin={{ right: 8, left: 8, bottom: 20 }}
+            margin={{ right: 8, left: 8, bottom: 60 }}
           >
             <Pie
               data={chartData}
@@ -114,7 +117,7 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
             <Tooltip content={<CustomTooltip />} />
             <Legend
               verticalAlign="bottom"
-              height={36}
+              height={56}
               formatter={(value) => (
                 <span className="text-xs text-gray-600">{value}</span>
               )}

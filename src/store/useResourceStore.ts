@@ -38,8 +38,8 @@ interface ResourceStore {
 
 // Default resource pool configuration
 const defaultResourcePool: ResourcePool = {
-  cpu: { total: 128, unit: 'cores' },
-  memory: { total: 1024, unit: 'GB' },
+  cpu: { total: 240, unit: 'cores' },
+  memory: { total: 1536, unit: 'GB' },
   gpu: { total: 16, unit: 'units' }
 };
 
