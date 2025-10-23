@@ -1,0 +1,201 @@
+{
+  "data": {
+    "resourcePool": {
+      "cpu": {
+        "total": 240,
+        "unit": "cores"
+      },
+      "memory": {
+        "total": 1536,
+        "unit": "GB"
+      },
+      "gpu": {
+        "total": 16,
+        "unit": "units"
+      }
+    },
+    "reservations": [
+      {
+        "name": "PSY 200(A/B)",
+        "gpuName": "",
+        "cpu": 80,
+        "memory": 160,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467212340",
+        "color": "#3b82f6"
+      },
+      {
+        "name": "PSY 300(A/B)",
+        "gpuName": "",
+        "cpu": 80,
+        "memory": 160,
+        "gpu": 0,
+        "description": "",
+        "id": "176046721454",
+        "color": "#3b82f6"
+      },
+      {
+        "name": "BIO 240(A/B/C)",
+        "gpuName": "",
+        "cpu": 144,
+        "memory": 288,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467627885",
+        "color": "#f59e0b"
+      },
+      {
+        "name": "PHY 305(A/B)",
+        "gpuName": "",
+        "cpu": 36,
+        "memory": 72,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467695224",
+        "color": "#ef4444"
+      },
+      {
+        "name": "CHE 260(A/B)",
+        "gpuName": "",
+        "cpu": 80,
+        "memory": 120,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476488003",
+        "color": "#3b82f6"
+      },
+      {
+        "name": "CSC Raghu Ind",
+        "gpuName": "RTX A6000",
+        "cpu": 16,
+        "memory": 128,
+        "gpu": 2,
+        "description": "",
+        "id": "1760467981401",
+        "color": "#f97316"
+      },
+      {
+        "name": "CSC 357",
+        "gpuName": "Quadro RTX 5000",
+        "cpu": 60,
+        "memory": 80,
+        "gpu": 10,
+        "description": "",
+        "id": "1760468129604",
+        "color": "#6b7280"
+      },
+      {
+        "name": "CSC 371",
+        "gpuName": "Quadro RTX 5000",
+        "cpu": 120,
+        "memory": 160,
+        "gpu": 24,
+        "description": "",
+        "id": "1760467282235",
+        "color": "#10b981"
+      },
+      {
+        "name": "DAT Kevin Research",
+        "gpuName": "RTX 4500 Ada",
+        "cpu": 16,
+        "memory": 64,
+        "gpu": 2,
+        "description": "",
+        "id": "1760468027057",
+        "color": "#ec4899"
+      },
+      {
+        "name": "DAT 110",
+        "gpuName": "",
+        "cpu": 48,
+        "memory": 96,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467758363",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "DAT 153",
+        "gpuName": "",
+        "cpu": 48,
+        "memory": 96,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467789037",
+        "color": "#06b6d4"
+      },
+      {
+        "name": "ECO 341",
+        "gpuName": "",
+        "cpu": 16,
+        "memory": 16,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476507941",
+        "color": "#10b981"
+      },
+      {
+        "name": "ECO 205",
+        "gpuName": "",
+        "cpu": 64,
+        "memory": 64,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476519152",
+        "color": "#f59e0b"
+      },
+      {
+        "name": "BIRDLAB",
+        "gpuName": "",
+        "cpu": 64,
+        "memory": 128,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476529949",
+        "color": "#ef4444"
+      },
+      {
+        "name": "GENLAB",
+        "gpuName": "",
+        "cpu": 96,
+        "memory": 256,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476543008",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "NGLAB",
+        "gpuName": "",
+        "cpu": 16,
+        "memory": 32,
+        "gpu": 0,
+        "description": "",
+        "id": "1760476550667",
+        "color": "#06b6d4"
+      },
+      {
+        "name": "Public",
+        "gpuName": "",
+        "cpu": 376,
+        "memory": 752,
+        "gpu": 0,
+        "description": "",
+        "id": "1760467894832",
+        "color": "#84cc16"
+      }
+
+    ],
+    "lastUpdated": "2025-10-14T21:16:03.866Z",
+    "version": "1.0.0"
+  },
+  "settings": {
+    "theme": "light",
+    "autoSave": true,
+    "notifications": true,
+    "refreshInterval": 30000
+  },
+  "exportedAt": "2025-10-14T21:16:03.867Z",
+  "version": "1.0.0"
+}
