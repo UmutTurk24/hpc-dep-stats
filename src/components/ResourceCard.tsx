@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReservationBreakdown, ResourceUtilization } from '../types';
-import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 interface ResourceCardProps {
   title: string;
@@ -96,10 +96,10 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
       </div>
 
       {/* Pie Chart */}
-      <div className="h-96 pb-10">
+      <div className="h-48">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart
-            margin={{ right: 8, left: 8, bottom: 60 }}
+            margin={{ right: 8, left: 8, bottom: 20 }}
           >
             <Pie
               data={chartData}
@@ -115,13 +115,13 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
               ))}
             </Pie>
             <Tooltip content={<CustomTooltip />} />
-            <Legend
+            {/* <Legend
               verticalAlign="bottom"
               height={56}
               formatter={(value) => (
                 <span className="text-xs text-gray-600">{value}</span>
               )}
-            />
+            /> */}
           </PieChart>
         </ResponsiveContainer>
       </div>

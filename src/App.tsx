@@ -71,11 +71,8 @@ function App() {
         </div>
 
         {/* Reservation Management */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
           <ReservationList />
-          
-          {/* Data Management */}
-          <PersistenceManager />
           
           {/* Quick Stats */}
           <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
@@ -130,6 +127,9 @@ function App() {
               </div>
             </div>
           </div>
+
+          {/* Data Management */}
+          <PersistenceManager />
         </div>
       </main>
 

@@ -288,17 +288,23 @@ export const useResourceStore = create<ResourceStore>((set, get) => ({
     const { resourcePool, reservations } = get();
     
     return {
-      cpu: reservations.map(reservation => ({
+      cpu: reservations.filter(
+        res => {return (res.cpu > 0)}
+      ).map(reservation => ({
         reservation,
         amount: reservation.cpu,
         percentage: (reservation.cpu / resourcePool.cpu.total) * 100
       })),
-      memory: reservations.map(reservation => ({
+      memory: reservations.filter(
+        res => {return (res.memory > 0)}
+      ).map(reservation => ({
         reservation,
         amount: reservation.memory,
         percentage: (reservation.memory / resourcePool.memory.total) * 100
       })),
-      gpu: reservations.map(reservation => ({
+      gpu: reservations.filter(
+        res => {return (res.gpu > 0)}
+      ).map(reservation => ({
         reservation,
         amount: reservation.gpu,
         percentage: (reservation.gpu / resourcePool.gpu.total) * 100

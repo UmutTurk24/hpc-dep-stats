@@ -16,176 +16,161 @@
     },
     "reservations": [
       {
-        "name": "PSY 200(A/B)",
-        "gpuName": "",
-        "cpu": 80,
-        "memory": 160,
+        "name": "BIO 240 (A,B,C)",
+        "cpu": 148,
+        "memory": 296,
         "gpu": 0,
-        "description": "",
-        "id": "1760467212340",
-        "color": "#3b82f6"
-      },
-      {
-        "name": "PSY 300(A/B)",
-        "gpuName": "",
-        "cpu": 80,
-        "memory": 160,
-        "gpu": 0,
-        "description": "",
-        "id": "176046721454",
-        "color": "#3b82f6"
-      },
-      {
-        "name": "BIO 240(A/B/C)",
-        "gpuName": "",
-        "cpu": 144,
-        "memory": 288,
-        "gpu": 0,
-        "description": "",
         "id": "1760467627885",
         "color": "#f59e0b"
       },
       {
-        "name": "PHY 305(A/B)",
-        "gpuName": "",
-        "cpu": 36,
-        "memory": 72,
-        "gpu": 0,
-        "description": "",
-        "id": "1760467695224",
-        "color": "#ef4444"
-      },
-      {
-        "name": "CHE 260(A/B)",
-        "gpuName": "",
-        "cpu": 80,
-        "memory": 120,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476488003",
-        "color": "#3b82f6"
-      },
-      {
-        "name": "CSC Raghu Ind",
-        "gpuName": "RTX A6000",
-        "cpu": 16,
+        "name": "BIO BIRDLAB (Research)",
+        "cpu": 32,
         "memory": 128,
-        "gpu": 2,
-        "description": "",
-        "id": "1760467981401",
-        "color": "#f97316"
+        "gpu": 0,
+        "id": "1760476529949",
+        "color": "#f59e0b"
+      },
+      {
+        "name": "BIO GENLAB (Research)",
+        "cpu": 64,
+        "memory": 256,
+        "gpu": 0,
+        "id": "1760476543008",
+        "color": "#f59e0b"
+      },
+      {
+        "name": "CHE 260 (A,B)",
+        "cpu": 64,
+        "memory": 128,
+        "gpu": 0,
+        "id": "1760476488003",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "CHE Durwin (Research)",
+        "cpu": 64,
+        "memory": 96,
+        "gpu": 0,
+        "id": "1760476488003",
+        "color": "#8b5cf6"
       },
       {
         "name": "CSC 357",
         "gpuName": "Quadro RTX 5000",
-        "cpu": 60,
-        "memory": 80,
+        "cpu": 40,
+        "memory": 160,
         "gpu": 10,
-        "description": "",
         "id": "1760468129604",
-        "color": "#6b7280"
+        "color": "#3b82f6"
       },
       {
         "name": "CSC 371",
         "gpuName": "Quadro RTX 5000",
-        "cpu": 120,
-        "memory": 160,
+        "cpu": 92,
+        "memory": 368,
         "gpu": 24,
-        "description": "",
         "id": "1760467282235",
-        "color": "#10b981"
+        "color": "#3b82f6"
       },
       {
-        "name": "DAT Kevin Research",
-        "gpuName": "RTX 4500 Ada",
+        "name": "CSC Ind (Raghu)",
+        "gpuName": "RTX A6000",
         "cpu": 16,
-        "memory": 64,
+        "memory": 128,
         "gpu": 2,
-        "description": "",
-        "id": "1760468027057",
-        "color": "#ec4899"
+        "id": "1760467981401",
+        "color": "#3b82f6"
       },
       {
         "name": "DAT 110",
-        "gpuName": "",
-        "cpu": 48,
-        "memory": 96,
+        "cpu": 58,
+        "memory": 116,
         "gpu": 0,
-        "description": "",
         "id": "1760467758363",
-        "color": "#8b5cf6"
+        "color": "#06b6d4"
       },
       {
         "name": "DAT 153",
-        "gpuName": "",
-        "cpu": 48,
-        "memory": 96,
+        "cpu": 62,
+        "memory": 124,
         "gpu": 0,
-        "description": "",
         "id": "1760467789037",
         "color": "#06b6d4"
       },
       {
-        "name": "ECO 341",
-        "gpuName": "",
+        "name": "DAT Kevin (Research)",
+        "gpuName": "RTX 4500 Ada",
         "cpu": 16,
-        "memory": 16,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476507941",
-        "color": "#10b981"
-      },
-      {
-        "name": "ECO 205",
-        "gpuName": "",
-        "cpu": 64,
         "memory": 64,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476519152",
-        "color": "#f59e0b"
-      },
-      {
-        "name": "BIRDLAB",
-        "gpuName": "",
-        "cpu": 64,
-        "memory": 128,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476529949",
-        "color": "#ef4444"
-      },
-      {
-        "name": "GENLAB",
-        "gpuName": "",
-        "cpu": 96,
-        "memory": 256,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476543008",
-        "color": "#8b5cf6"
-      },
-      {
-        "name": "NGLAB",
-        "gpuName": "",
-        "cpu": 16,
-        "memory": 32,
-        "gpu": 0,
-        "description": "",
-        "id": "1760476550667",
+        "gpu": 2,
+        "id": "1760468027057",
         "color": "#06b6d4"
       },
       {
-        "name": "Public",
-        "gpuName": "",
-        "cpu": 376,
-        "memory": 752,
+        "name": "ECO 205",
+        "cpu": 52,
+        "memory": 104,
         "gpu": 0,
-        "description": "",
-        "id": "1760467894832",
+        "id": "1760476519152",
         "color": "#84cc16"
+      },
+      {
+        "name": "ECO 341",
+        "cpu": 24,
+        "memory": 48,
+        "gpu": 0,
+        "id": "1760476507941",
+        "color": "#84cc16"
+      },
+      {
+        "name": "ECO Pedro (Research)",
+        "cpu": 16,
+        "memory": 64,
+        "gpu": 0,
+        "id": "1760468027057",
+        "color": "#84cc16"
+      },
+      {
+        "name": "PHY 305 (A,B)",
+        "cpu": 48,
+        "memory": 96,
+        "gpu": 0,
+        "id": "1760467695224",
+        "color": "#6b7280"
+      },
+      {
+        "name": "PSY 200 (A,B)",
+        "cpu": 60,
+        "memory": 104,
+        "gpu": 0,
+        "id": "1760467212340",
+        "color": "#ef4444"
+      },
+      {
+        "name": "PSY 300 (A,B)",
+        "cpu": 110,
+        "memory": 160,
+        "gpu": 0,
+        "id": "176046721454",
+        "color": "#ef4444"
+      },
+      {
+        "name": "PSY NGLAB (Research)",
+        "cpu": 16,
+        "memory": 32,
+        "gpu": 0,
+        "id": "1760476550667",
+        "color": "#ef4444"
+      },
+      {
+        "name": "Public",
+        "cpu": 296,
+        "memory": 692,
+        "gpu": 0,
+        "id": "1760467894832",
+        "color": "#10b981"
       }
-
     ],
     "lastUpdated": "2025-10-14T21:16:03.866Z",
     "version": "1.0.0"

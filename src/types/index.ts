@@ -3,15 +3,15 @@
 export interface ResourcePool {
   cpu: {
     total: number; // Total CPU cores available
-    unit: 'cores';
+    unit: string;
   };
   memory: {
     total: number; // Total memory in GB
-    unit: 'GB';
+    unit: string;
   };
   gpu: {
     total: number; // Total GPU units available
-    unit: 'units';
+    unit: string;
   };
 }
 

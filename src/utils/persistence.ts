@@ -1,5 +1,6 @@
 // Data persistence utilities for HPC Resource Dashboard
 import { ResourcePool, Reservation } from '../types';
+import defaultData from '../data/latest-dashboard.json'
 
 const STORAGE_KEYS = {
   RESOURCE_POOL: 'hpc-dashboard-resource-pool',
@@ -197,22 +198,13 @@ class PersistenceManager {
   }
 
   private getDefaultData(): PersistedData {
-    return {
-      resourcePool: {
-        cpu: { total: 128, unit: 'cores' },
-        memory: { total: 1024, unit: 'GB' },
-        gpu: { total: 16, unit: 'units' }
-      },
-      reservations: [],
-      lastUpdated: new Date().toISOString(),
-      version: '1.0.0'
-    };
+    return defaultData.data
   }
 
   private getDefaultSettings(): AppSettings {
     return {
       theme: 'light',
-      autoSave: true,
+      autoSave: false,
       notifications: true,
       refreshInterval: 30000 // 30 seconds
     };
