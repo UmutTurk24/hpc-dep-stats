@@ -83,6 +83,15 @@
         "color": "#3b82f6"
       },
       {
+        "name": "CSC Hammurabi (Research)",
+        "gpuName": "RTX A6000",
+        "cpu": 16,
+        "memory": 128,
+        "gpu": 2,
+        "id": "1760467981401",
+        "color": "#3b82f6"
+      },        
+      {
         "name": "DAT 110",
         "cpu": 58,
         "memory": 116,
