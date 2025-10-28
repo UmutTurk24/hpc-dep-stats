@@ -18,7 +18,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">HPC Resource Dashboard</h1>
+              <h1 className="text-2xl font-bold text-gray-900">HPC Commitments Dashboard</h1>
               <p className="text-sm text-gray-600">High Performance Computing Resource Management</p>
             </div>
             <button
